@@ -91,31 +91,36 @@ The design was implemented on a **Xilinx Zynq-7000 ZedBoard**:
 
 ### Simulation Waveforms
 
-Write Transaction: AHB write propagates to APB. (images/wv1.png)
+Write Transaction: AHB write propagates to APB. 
+![WRITE TRANSACTION](images/wv1.png)
 
 
 
 
 
 
-Read Transaction: APB read data returns to AHB. (images/wv2.png)
+Read Transaction: APB read data returns to AHB. 
+![READ TRANSACTION](images/wv2.png)
 
 
 
 
 ### Hardware Results
 
-ILA Waveform: Captures AHB write/read in hardware. (images/ila_wv.png)
+#### ILA Waveform: Captures AHB write/read in hardware. 
+![ILA1](images/ila_wv.png)
 
-(images/ila_wv2.png)
-(images/ila_wv3.png)
+![ILA2](images/ila_wv2.png)
+
+![ILA3](images/ila_wv3.png)
 
 
 
 
-UART Output: Console output from Zedboard. (images/hardware_output.png)
+##### UART Output: Console output from Zedboard. (images/hardware_output.png)
 
-(images/hardware_output2.png)
+![HW OUT](images/hardware_output2.png)
+
 
 
 ## Conclusion
@@ -131,5 +136,6 @@ Clock Domain Crossing Techniques, SNUG Proceedings, 2008.
 
 
 For issues or contributions, please open a pull request!
+
 
 
