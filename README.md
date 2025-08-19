@@ -107,17 +107,20 @@ Read Transaction: APB read data returns to AHB.
 
 ### Hardware Results
 
-ILA Waveform: Captures AHB write/read in hardware. 
+#### ILA Waveform: Captures AHB write/read in hardware. 
 ![ILA1](images/ila_wv.png)
+
 ![ILA2](images/ila_wv2.png)
+
 ![ILA3](images/ila_wv3.png)
 
 
 
 
-UART Output: Console output from Zedboard. (images/hardware_output.png)
+##### UART Output: Console output from Zedboard. (images/hardware_output.png)
 
 ![HW OUT](images/hardware_output2.png)
+
 
 
 ## Conclusion
