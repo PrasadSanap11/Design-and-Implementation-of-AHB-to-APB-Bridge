@@ -1,0 +1,5 @@
+*.log
+*.vcd
+*.bak
+ssh_key
+ssh_key.pub
